@@ -1,0 +1,7 @@
+#python cache
+__pycache__/
+*.pyc
+
+#xml 
+20newsgroups-initial.xml
+20newsgroups-additional.xml

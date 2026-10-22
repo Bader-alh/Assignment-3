@@ -1,0 +1,11 @@
+#ignore cache filee
+__pycache__/
+*.pyc
+.pytest_cache/
+
+#also ignore data like in hw2 before
+
+/data/
+
+#ignore package install metadata
+*.egg-info/
