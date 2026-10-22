@@ -80,7 +80,7 @@ def search_index(index,query,tokenizer,use_stemming=False):#search inverted inde
     #tokenize/normalise query (same as documents)
     tokens = []
     for word in query.split():
-        tokens.extend(normalize_tokens(tokenizer.tokenize(word)))
+        tokens.extend(normalize_tokens(tokenizer.tokenize(word))) #this was ADDED LAST since ngram could not pick up the other document
 
     #stemming if needed
     if use_stemming:
